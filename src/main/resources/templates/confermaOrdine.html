@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ordine Confermato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Ordine Confermato</h2>
+    <p>Grazie per aver effettuato il tuo acquisto, <span th:text="${cliente.nome}">Nome Cliente</span>!</p>
+    <h4>Dettagli Ordine:</h4>
+    <ul>
+        <li><strong>Prodotto:</strong> <span th:text="${prodotto.nome}">Nome Prodotto</span></li>
+        <li><strong>Prezzo:</strong> €<span th:text="${ordine.importo}">Prezzo Totale</span></li>
+        <li><strong>Taglia:</strong> <span th:text="${ordine.taglia}">Taglia</span></li>
+        <li><strong>Quantità:</strong> <span th:text="${ordine.quantita}">Quantità</span></li>
+        <li><strong>Metodo di Pagamento:</strong> <span th:text="${ordine.metodo_pagamento}">Metodo di Pagamento</span></li>
+        <li><strong>Data Ordine:</strong> <span th:text="${ordine.data_ordine}">Data Ordine</span></li>
+    </ul>
+    <a href="/cliente/all" class="btn btn-primary mt-3">Torna alla Home</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

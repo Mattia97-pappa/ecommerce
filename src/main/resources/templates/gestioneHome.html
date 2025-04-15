@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Pannello Controllo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+	rel="stylesheet">
+<style>
+.hero {
+	background: linear-gradient(135deg, #007bff, #6610f2);
+	color: white;
+	padding: 60px 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-hover:hover {
+	transform: translateY(-5px);
+	transition: all 0.3s ease;
+}
+</style>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+		<div class="container">
+			<a class="nav-link" th:href="@{/logout}">LOG OUT↩️</a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="container mt-5">
+		<div class="hero text-center">
+			<h1 class="display-5 fw-bold">Gestionale dell'E-commerce Turtle Wave™</h1>
+			<p class="lead mt-3">Gestisci e consulta facilmente i dati 
+				del sito</p>
+		</div>
+	</section>
+
+	<!-- Azioni principali -->
+	<section class="container mt-5">
+		<div class="row justify-content-center g-4">
+
+		
+
+			<div class="col-md-5 col-lg-4">
+				<div class="card shadow-sm card-hover h-100">
+					<div class="card-body text-center">
+						<i class="bi bi-database-fill"></i>
+						<h5 class="card-title">Lista Utenti & Gestione</h5>
+						<p class="card-text">Per il controllo dei dati degli utenti e la loro modifica</p>
+						<a href="/user/all" class="btn btn-success w-100">Entra</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-5 col-lg-4">
+				<div class="card shadow-sm card-hover h-100">
+					<div class="card-body text-center">
+						<i class="bi bi-list-ol"></i>
+						<h5 class="card-title">Lista Ordini</h5>
+						<p class="card-text">Per il controllo dei dati degli ordini e la loro modifica</p>
+						<a href="/adminordini/all" class="btn btn-success w-100">Entra</a>
+					</div>
+				</div>
+			</div>
+
+			
+			
+
+						<div class="col-md-5 col-lg-4">
+							<div class="card shadow-sm card-hover h-100">
+								<div class="card-body text-center">
+									<i class="bi bi-database-fill-exclamation"></i>
+									<h5 class="card-title">Lista Prodotti</h5>
+									<p class="card-text">Per il controllo dei dati dei prodotti e la loro modifica</p>
+									<a href="/adminprodotti/all" class="btn btn-success w-100">Entra</a>
+								</div>
+							</div>
+						</div>
+
+
+		</div>
+	</section>
+
+	
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
