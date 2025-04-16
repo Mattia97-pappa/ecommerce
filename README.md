@@ -8,6 +8,8 @@ Features
 - Product browsing
 - Order placement
 - Data persistence
+- Admin experience demonstration🛡️
+The admin has CRUD (Create, Read, Update, Delete) permissions to manage the application's data and resources
 
  Technologies
 
