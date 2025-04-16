@@ -8,7 +8,7 @@ Features
 - Product browsing
 - Order placement
 - Data persistence
--🛡️The admin has CRUD (Create, Read, Update, Delete) permissions to manage the application's data and resources
+-The admin has CRUD (Create, Read, Update, Delete) permissions to manage the application's data and resources
 
  Technologies
 
