@@ -20,7 +20,7 @@ Features
 
  Demo
 
-- [User Experience](https://www.youtube.com/watch?v=M3GdBcDxYwY)
-- [Admin Experience](https://www.youtube.com/watch?v=jRUAhJLNofQ)
+- [User Experience](https://vimeo.com/user170534984)
+- [Admin Experience](https://vimeo.com/user170534984)
 
 
