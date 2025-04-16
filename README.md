@@ -20,7 +20,7 @@ Features
 
  Demo
 
-- [User Experience](https://vimeo.com/user170534984)
-- [Admin Experience](https://vimeo.com/user170534984)
+- Experience](https://vimeo.com/user170534984)
+
 
 
