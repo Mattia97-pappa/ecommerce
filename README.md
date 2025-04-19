@@ -3,6 +3,12 @@
   For read the codes you have to go inside the "src" folder.
 
 
+ 🔴For read the codes you have to go inside the "src" folder.🔴
+
+
+
+
+
 Full-stack web application for an online clothing store, developed in Java.
 
 Features
