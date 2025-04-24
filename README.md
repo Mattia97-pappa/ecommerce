@@ -1,6 +1,6 @@
 # 🛍️ Negozio di Abbigliamento Online 👕
 
-🔴 **Per leggere il codice, vai all'interno della cartella `src`.** 🔴
+
 
 
 
@@ -12,8 +12,17 @@
    git clone https://github.com/Mattia97-pappa/ecommerce.git
 
 
+👀 Il codice sorgente completo si trova in src, suddiviso in package chiari:
 
+controller → gestione delle rotte
 
+entity → entità del database
+
+repository → interfaccia con il DB
+
+security & config → login, autenticazione e accessi
+
+Esegui la classe Application.java (o simile, con @SpringBootApplication) per avviare l'app
 
 
 
