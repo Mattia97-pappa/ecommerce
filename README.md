@@ -8,7 +8,7 @@
 ## 🚀 Come Iniziare
 
 1. Clona il repository:
-   ```bash
+   bash
    git clone https://github.com/Mattia97-pappa/ecommerce.git
 
 
