@@ -9,7 +9,11 @@
 
 1. Clona il repository:
    bash
-   git clone https://github.com/Mattia97-pappa/ecommerce.git
+```clona
+   
+git clone https://github.com/Mattia97-pappa/ecommerce.git
+cd ecommerce
+```
 
 
 👀 Il codice sorgente completo si trova in src, suddiviso in package chiari:
