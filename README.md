@@ -2,17 +2,32 @@
 
 🔴 **Per leggere il codice, vai all'interno della cartella `src`.** 🔴
 
+
+
+
+## 🚀 Come Iniziare
+
+1. Clona il repository:
+   ```bash
+   git clone https://github.com/Mattia97-pappa/ecommerce.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Applicazione web full-stack per un negozio di abbigliamento online, sviluppata in **Java**.
 
-
- 
- 
- 
- 
- 
- 
- 
- ✨ Funzionalità
+✨ Funzionalità
 
 - Autenticazione utenti
 - Navigazione dei prodotti
