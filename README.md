@@ -24,7 +24,7 @@ security & config → login, autenticazione e accessi
 
 Esegui la classe Application.java (o simile, con @SpringBootApplication) per avviare l'app
 
-
+Accedi all'app dal browser vai su http://localhost:8080
 
 
 Tabelle da copiare e incollare per far funzionare il sistema. 
